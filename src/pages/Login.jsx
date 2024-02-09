@@ -46,6 +46,8 @@ export default function Login() {
       const { data } = await axios.post(loginRoute, {
         username,
         password,
+      }).catch(error => {
+        console.error("Error during POST request:", error);
       });
       if (data.status === false) {
         toast.error(data.msg, toastOptions);
