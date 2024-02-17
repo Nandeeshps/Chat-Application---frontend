@@ -1,7 +1,11 @@
 
 export const host = "http://localhost:5000";
 
-// export const host = "https://chat-application-backend-d100bq4gd-nandeeshps-projects.vercel.app";
+
+// export const host = "https://chat-application-backend-jz89odiuy-nandeeshps-projects.vercel.app";
+
+
+
 
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
